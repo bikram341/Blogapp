@@ -1,0 +1,26 @@
+{
+  "name": "Blogapp",
+  "version": "1.0.0",
+  "description": "Using nodejs mysql sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bikram341/Blogapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bikram341/Blogapp/issues"
+  },
+  "homepage": "https://github.com/bikram341/Blogapp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  }
+}
