@@ -8,4 +8,10 @@ router.post('/add',(req,res) => {
 	.catch(err => res.sendStatus(404))
 });
 
+router.get('/',(req,res) => {
+	category.findAll()
+	.then(new_post => res.json(new_post))
+	.catch(err => res.sendStatus(404))
+});
+
 module.exports = router;
