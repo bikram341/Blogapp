@@ -12,6 +12,9 @@ app.use(bodyParser.json());
 
 app.use("/api/posts",posts);
 
+const categories = require('./routes/api/categories.js');
+app.use("/api/category",categories);
+
 /*// route
 app.get("/",(req,res) => {
 	res.send({message : "welcome"});
